@@ -4,7 +4,6 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-
 class Point {
     private int x;
     private int y;
@@ -37,6 +36,7 @@ interface Movement {
     Point move(Point point);
 }
 
+// game rules
 class Player {
     public char type;
 
